@@ -9,16 +9,13 @@ const flightSchema = new Schema({
   },
   airport: {
     type: String,
-    enum: ['DFW', 'DEN', 'LAX', 'SAN']
+    enum: ['AUS', 'DFW', 'DEN', 'LAX', 'SAN']
   },
   flightNo: {
     type: Number,
   },
   departs: {
-    type: Number,
-    default: function() {
-      return new Date().getFullYear()
-    }
+    type: Date,
   }
 })
 
