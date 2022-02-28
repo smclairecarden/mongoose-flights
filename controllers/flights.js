@@ -21,9 +21,6 @@ function index(req, res) {
       flights: flights,
       error: error
     })
-    // flights.sort(function(a, b) {
-    //   return a.departs - b.departs
-    // })
   })
 }
 

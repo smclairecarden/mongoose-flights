@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/stylesheet/style.css">
   <title>Mongoose Flights</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
   <h1>Enter a New Flight</h1>
   <form action="/flights" method="POST">
-    <label>airline:
+    <label>Airline:
       <select name="airline">
         <option value="American">American</option>
         <option value="Southwest">Southwest</option>
         <option value="United">United</option>
       </select>
     </label><br>
-    <label>airport:
+    <label>Airport:
       <select name="airport" default="DEN">
         <option value="AUS">AUS</option>
         <option value="DFW">DFW</option>
@@ -26,11 +29,11 @@
         <option value="SAN">SAN</option>
       </select>
     </label><br>
-    <label>flightNo:
+    <label>FlightNo:
       <input type="text" name="flightNo">
       </select>
     </label><br>
-    <label>departs:
+    <label>Departs:
       <input type="datetime-local" name="departs">
     </label>
     <button type="submit">Add Flight</button>
