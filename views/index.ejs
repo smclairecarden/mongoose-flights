@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<%- include('./partials/html-head') %>
+<link rel="stylesheet" href="/stylesheets/style.css" /> 
+<%- include('./partials/nav') %> 
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
@@ -12,7 +13,5 @@
 </head>
 <body>
   <h1><%= title %></h1>
-  <a href="/flights/new">Add Flight</a>
-  <a href="/flights">All Flights</a>
-</body>
-</html>
+
+  <%- include('./partials/footer') %> 
