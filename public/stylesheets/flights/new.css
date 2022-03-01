@@ -5,4 +5,13 @@ form, table {
   grid-gap: 10px;
   border-radius: 5px;
   padding: 5px;
+  color: darkblue;
+}
+
+input {
+  width: 10rem;
+}
+
+button {
+  width: 5rem;
 }
