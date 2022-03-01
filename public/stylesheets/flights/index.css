@@ -1,0 +1,24 @@
+td {
+  color: navy;
+}
+
+label {
+  color: darkblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#details{
+  background-color: skyblue;
+  color: darkblue;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+#xbutton {
+  background-color: skyblue;
+  color: darkblue;
+  border-radius: 10px;
+  width: 3rem;
+  height: 1.8rem;
+}

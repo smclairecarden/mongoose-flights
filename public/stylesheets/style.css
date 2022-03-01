@@ -57,41 +57,7 @@ th {
   padding: 10px 20px;
 }
 
-td {
-  color: navy;
-}
 
-label {
-  color: darkgreen;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-#details{
-  background-color: skyblue;
-  color: darkblue;
-  border-radius: 10px;
-  text-decoration: none;
-}
 
-#xbutton {
-  background-color: skyblue;
-  color: darkblue;
-  border-radius: 10px;
-  width: 3rem;
-  height: 1.8rem;
-}
 
-section {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 0;
-}
-
-form, table {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  grid-gap: 10px;
-  border-radius: 5px;
-}
