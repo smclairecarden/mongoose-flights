@@ -21,8 +21,8 @@ section {
 ul {
   color: darkblue;
   list-style-type: none;
-  margin: 10px auto;
-  text-align: left;
+  text-align: center;
+  list-style-position: inside;
 }
 
 #add-ticket {
@@ -53,3 +53,4 @@ button {
 h2 {
   margin-top: 5px;
 }
+
