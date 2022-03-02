@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  padding: 50px;
+  padding: 0px;
   font-family: 'Shippori Antique B1', sans-serif;
   /* text-align: center; */
   background-color: gray;
@@ -43,17 +43,8 @@ nav > a {
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
-  color: #424748;
-}
-
-nav > a:visited {
-  color: whitesmoke;
-}
-
-nav > a.active {
   color: white;
 }
-
 
 h1, h2 {
   color: indigo;

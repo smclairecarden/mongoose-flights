@@ -15,3 +15,11 @@ input {
 button {
   width: 5rem;
 }
+
+input, select, button {
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}

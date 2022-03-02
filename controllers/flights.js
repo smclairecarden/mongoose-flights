@@ -13,7 +13,9 @@ function create(req, res) {
   }
   const flight = new Flight(req.body)
   flight.save(function(err){
-    if (err) return res.render('flights/new')
+    if (err) {
+     return res.render('flights/new', {err:null, title:'Add Flight'})
+    }
     res.redirect(`/flights/${flight._id}`)
   })
 }
@@ -50,7 +52,7 @@ function deleteFlight(req, res) {
 
 function edit(req, res) {
   Flight.findById(req.params.id, function(error, flight){
-    res.render('flights/edit', {
+    res.render('flights/edit',  {
       flight,
       error,
       title: "Edit Flight",

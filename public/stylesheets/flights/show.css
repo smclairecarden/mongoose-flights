@@ -7,7 +7,7 @@
   border-radius: 5px;
 }
 
-div {
+div, label {
   color: darkblue;
 }
 
@@ -21,11 +21,33 @@ section {
 ul {
   color: darkblue;
   list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
+  text-align: left;
 }
 
 #add-ticket {
   margin: 0 auto;
   margin: 20px;
+}
+
+td {
+  text-align: center; 
+  vertical-align: middle;
+}
+
+main {
+  text-align: center;
+  font-size: 1rem;
+}
+
+input {
+  width: 60px;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 5px;
 }
