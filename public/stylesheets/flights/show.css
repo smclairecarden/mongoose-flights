@@ -1,26 +1,31 @@
-section {
+#detail {
   display: grid;
   grid-template-columns: auto auto;
   padding: 0;
-}
-
-form, table, section {
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   grid-gap: 10px;
   border-radius: 5px;
-}
-
-form {
-  padding: 10px;
 }
 
 div {
   color: darkblue;
 }
 
-#edit {
+section {
+  text-align: center;
+  color: darkblue;
   margin-left: auto;
   margin-right: auto;
+}
+
+ul {
+  color: darkblue;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#add-ticket {
+  margin: 0 auto;
+  margin: 20px;
 }

@@ -12,7 +12,7 @@ body {
   grid-template-areas:
     "nav"
     "main";
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 body > main {

@@ -5,7 +5,6 @@ function newFlight(req, res) {
   res.render('flights/new', {
     title: "Add Flight",
   })
-  return flights.departs.toISOString().slice(0, 16)
 }
 
 function create(req, res) {
