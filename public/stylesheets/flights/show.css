@@ -33,6 +33,7 @@ ul {
 td {
   text-align: center; 
   vertical-align: middle;
+  color: darkblue;
 }
 
 main {
@@ -46,6 +47,7 @@ input {
 
 button {
   margin-bottom: 10px;
+  background-color: skyblue;
 }
 
 h2 {
