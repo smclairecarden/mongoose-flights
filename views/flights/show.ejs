@@ -12,7 +12,7 @@
     <div>Flight Number: </div>
     <div><%= flight.flightNo %></div>
     <div>Departs: </div>
-    <div><%= flight.departs.toISOString().slice(0, 10) %></div>
+    <div><%= flight.departs.toISOString().slice(0, 16) %></div>
     </section><br>
     <div>
       <a href="/flights/<%= flight._id %>/edit">
@@ -43,7 +43,7 @@
     <label for="content-textarea">Seat: </label>
     <input name="seat" required pattern="[A-F][1-9]\d?">
     <label for="content-textarea">Price: </label>
-    <input name="price"><br>
+    <input name="price" type="number" step=".01"><br>
     <button id="add-ticket" type="submit">Add Ticket</button>
   </form>
   
@@ -59,7 +59,7 @@
         <% flight.tickets.forEach(function(ticket) { %>
           <tr>
             <td><%= ticket.seat %> </td>
-            <td>$<%= ticket.price %> </td>
+            <td>$<%= ticket.price %></td>
           </tr>
         <% }) %> 
       </tbody>

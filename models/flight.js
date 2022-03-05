@@ -22,11 +22,14 @@ const flightSchema = new Schema({
     type: Number,
     min: 10,
     max: 9999,
+    required: true,
   },
   departs: {
     type: Date,
     default: function() {
-      return new Date(new Date().setFullYear(new Date().getFullYear() + 1))
+      let date = new Date()
+      date.setFullYear(date.getFullYear() + 1)
+      return date
     }
   },
   tickets: [ticketSchema],

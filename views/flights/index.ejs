@@ -19,7 +19,7 @@
           <td><%= flight.airline %></td>
           <td><%= flight.airport %></td>
           <td><%= flight.flightNo %></td>
-          <td type="date"><%= flight.departs.toISOString().slice(0, 10) %></td>
+          <td type="datetime-local"><%= flight.departs.toISOString().slice(0, 16) %></td>
           <td><a href="/flights/<%= flight._id %>" id="details">DETAILS</a></td>
           <td>
             <form action="/flights/<%= flight._id %>?_method=DELETE" method="POST">

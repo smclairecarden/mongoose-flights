@@ -5,11 +5,11 @@
 <main>
 	<h1><%= title %></h1>
   <p>Please first ensure that the Meal is not listed below!
-    <br><select>
+    <br><ul>
       <% meals.forEach(function(meal) { %>
-        <option><%= meal.name %></option>
+        <li><%= meal.name %></li>
       <% }) %>
-    </select>
+      </ul>
   </p>
   <form id="add-meal-form" action="/meals" method="POST">
     <label for="name-input">Meal:</label>

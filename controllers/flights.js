@@ -16,7 +16,7 @@ function create(req, res) {
     if (err) {
      return res.render('flights/new', {err:null, title:'Add Flight'})
     }
-    res.redirect(`/flights/${flight._id}`)
+    res.redirect('/flights')
   })
 }
 
